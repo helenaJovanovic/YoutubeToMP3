@@ -51,10 +51,13 @@ class MAIN:
     def Progress(self, d):
         if d['status'] == 'finished':
             Label(self.new_window).pack()
-            converting = Label(self.new_window, text="One part done, next one...", font= ('Georgia', '14', 'italic')).pack()
+            converting = Label(self.new_window, text="Unpacking and converting", font= ('Georgia', '14', 'italic')).pack()
         elif d['status'] == 'downloading':
             #turn the logging on, and then parse logging.log file for download percentage
-            self.progress_bar['value'] = (d['eta']/100) * d['elapsed']
+            
+            self.progress_bar["value"] +=5
+            if (self.progress_bar["value"]>=100):
+                self.progress_bar["value"] = 0
             if d['total_bytes'] == None:
                 byt = "Unknown"
             else:
