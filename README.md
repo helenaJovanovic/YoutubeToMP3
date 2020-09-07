@@ -14,11 +14,14 @@ FFmpeg is required to run, you can get the binary for your system here:
 
 [ffmpeg.org](http://ffmpeg.org/download.html)
 
+In case of Windows you can download the static build here: [http://ffmpeg.zeranoe.com/builds/](http://ffmpeg.zeranoe.com/builds/)
+And then extract ffmpeg.exe from the bin folder inside the zip file to the folder where you have the source code or the executable of YoutubeToMP3.
+You can also extract the whole folder somewhere more suitable and then add the path to .../bin to the PATH variable.
 
-(You can copy the binary into the folder with the program, or install it elsewhere and add it to the PATH variable)
+
 
 ## How it works
 
 It's simple. Paste your link and then choose the download destination.
 
-First it will download the video in .webm and .mp4 and then it will convert it to .mp3 in 320 kbps quality and delete the original files.
+First it will download the video in .webm and then it will convert it to .mp3 in 320 kbps quality and delete the original files.
