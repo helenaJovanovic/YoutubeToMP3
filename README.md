@@ -1,6 +1,6 @@
 # YoutubeToMP3
 
-YoutubeToMP3 is a simple Python GUI interface for youtube-dl library that makes downloading songs from youtube in mp3 format easier. 
+YoutubeToMP3 is a simple GUI interface for youtube-dl library that makes downloading songs from youtube in mp3 format easier. It was written in Python 3.7.4
 
 
 ## Installation
