@@ -66,7 +66,7 @@ class MAIN:
             
             self.info.config(
                 text = "Elapsed:  " + str(int(d['elapsed'])) +"s,  ETA:  " + str(int(d['eta'])) + "s,  Speed:  " + str(int(d['speed']/1024))+
-                "MBps,  Size:  " + byt +" MB"
+                "KBps,  Size:  " + byt +" MB"
             )
         
     
@@ -102,7 +102,7 @@ class MAIN:
             'postprocessors': [{
                 'key': 'FFmpegExtractAudio',
                 'preferredcodec': 'mp3',
-                'preferredquality': '256',}]
+                'preferredquality': '320',}]
         }
         
         with youtube_dl.YoutubeDL(self.settings) as ydl:
