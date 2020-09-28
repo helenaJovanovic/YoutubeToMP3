@@ -15,8 +15,8 @@ FFmpeg is required to run, you can get the binary for your system here:
 [ffmpeg.org](http://ffmpeg.org/download.html)
 
 In case of Windows you can download the static build here: [https://www.gyan.dev/ffmpeg/builds/](https://www.gyan.dev/ffmpeg/builds/)
-And then extract ffmpeg.exe from the bin folder inside the zip file to the folder where you have the source code or the executable of YoutubeToMP3.
-You can also extract the whole folder somewhere more suitable and then add the path to .../bin to the PATH variable.
+And then extract ffmpeg.exe from the bin folder to the folder where you have the source code or the YoutubeToMP3 executable.
+You can also extract the whole folder somewhere more suitable and then add that path to the PATH variable.
 
 For Ubuntu based Linux distributions you can do:
 
