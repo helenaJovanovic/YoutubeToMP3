@@ -25,11 +25,15 @@ sudo apt update
 sudo apt install ffmpeg
 ```
 
-Source code for ffmpeg:
-https://github.com/FFmpeg/FFmpeg/commit/6d886b6586
 
 ## How it works
 
 It's simple. Paste your link and then choose the download destination.
 
 First it will download the video in .webm and then it will convert it to .mp3 in 320 kbps quality and delete the original files.
+
+
+
+
+Ffmpeg source code:
+https://github.com/FFmpeg/FFmpeg/commit/6d886b6586
